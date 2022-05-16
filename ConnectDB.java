@@ -5,9 +5,9 @@ import java.util.StringTokenizer;
 
 public class ConnectDB {
 
-    static String dbAddress = "jdbc:mysql://projgw.cse.cuhk.edu.hk:2633/db29";
-    static String dbUsername = "Group29";
-    static String dbpassword = "CSCI3170";
+    static String dbAddress = "";
+    static String dbUsername = "";
+    static String dbpassword = ";
 
     static Connection conn = null;
     static Statement stmt = null;
